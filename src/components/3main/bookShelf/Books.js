@@ -4,17 +4,13 @@ import Book from './Book';
 
 var Books = React.createClass({
   render: function() {
+    let books = [];
+    for (let i = 0; i < 9; i++) {
+      books.push(<Book></Book>);
+    }
     return (
       <div className='Books'>
-        <Book></Book>
-        <Book></Book>
-        <Book></Book>
-        <Book></Book>
-        <Book></Book>
-        <Book></Book>
-        <Book></Book>
-        <Book></Book>
-        <Book></Book>
+        {books}
       </div>
     );
   }
