@@ -1,0 +1,58 @@
+.Main {
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+}
+
+.Best {
+  height: inherit;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.Authors {
+  background-color: #9C27B0;
+  width: inherit;
+  flex: 1;
+}
+.BestBooks {
+  background-color: #69F0AE;
+  width: inherit;
+  flex: 1;
+}
+
+.BookShelf {
+  height: inherit;
+  flex: 4;
+}
+.NavigationPanel {
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+}
+.PopularBy{
+  background-color: #F06292;
+  height: inherit;
+  flex: 1;
+}
+.NavBar {
+  background-color: #0091EA;
+  height: inherit;
+  flex: 3;
+}
+.Books {
+  background-color: #B2FF59;
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+}
+.Book {
+  background-color: #311B92;
+  height: 200px;
+  width: 250px;
+  margin: 20px;
+  /*display: inherit;*/
+}

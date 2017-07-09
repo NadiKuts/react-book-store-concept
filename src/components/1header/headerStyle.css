@@ -1,0 +1,32 @@
+header {
+  background-color: #CDDC39;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.BrowseCategory {
+  background-color: #00E5FF;
+  height: inherit;
+  flex: 2;
+}
+.SearchBook {
+  background-color: #F50057;
+  height: inherit;
+  flex: 2;
+}
+.Titel {
+  background-color: #303F9F;
+  height: inherit;
+  flex: 9;
+}
+.User {
+  background-color: #FFF176;
+  height: inherit;
+  flex: 1;
+}
+.Menu {
+  background-color: #26A69A;
+  height: inherit;
+  flex: 2;
+}
