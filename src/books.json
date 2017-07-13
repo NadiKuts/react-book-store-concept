@@ -1,0 +1,250 @@
+{
+  "store" : [
+    {
+      "category": "business",
+      "books": [
+        {
+          "name": "The Barefoot Investor : The Only Money Guide You'll Ever Need",
+          "author": "Scott Pape",
+          "rate": "4.63",
+          "voters": "822",
+          "people": [
+            "Carolina Peters",
+            "John Doe",
+            "Maria Smith",
+            "Leo Wolf",
+            "Samantha William",
+            "Peter Brown"
+          ],
+          "image": "1.jpg"
+        },
+        {
+          "name": "Start with Why : How Great Leaders Inspire Everyone to Take Action",
+          "author": "Simon Sinek",
+          "rate": "4.06",
+          "voters": "31,736",
+          "people": [
+            "Carolina Peters",
+            "Samantha William",
+            "Peter Brown"
+          ],
+          "image": "2.jpg"
+        },
+        {
+          "name": "The Intelligent Investor",
+          "author": "Benjamin Graham",
+          "rate": "4.26",
+          "voters": "28,584",
+          "people": [
+            "John Doe",
+            "Maria Smith",
+            "Leo Wolf",
+            "Peter Brown"
+          ],
+          "image": "3.jpg"
+        },
+        {
+          "name": "Shoe Dog : A memoir by the Creator of Nike",
+          "author": "Phil Knight",
+          "rate": "4.44",
+          "voters": "18,916",
+          "people": [
+            "Carolina Peters",
+            "John Doe",
+            "Maria Smith"
+          ],
+          "image": "4.jpg"
+        },
+        {
+          "name": "How to Win Friends and Influence People",
+          "author": "Dale Carnegie",
+          "rate": "4.13",
+          "voters": "297,843",
+          "people": [
+            "Carolina Peters",
+            "John Doe",
+            "Maria Smith",
+            "Samantha William",
+            "Peter Brown"
+          ],
+          "image": "5.jpg"
+        },
+        {
+          "name": "Playing to Win : How Strategy Really Works",
+          "author": "A.G. Lafley, Roger L. Martin",
+          "rate": "3.96",
+          "voters": "1,930",
+          "people": [],
+          "image": "6.jpg"
+        }
+      ]
+    },
+    {
+      "category": "science",
+      "books": [
+        {
+          "name": "Astrophysics for People in a Hurry",
+          "author": "Neil Degrasse Tyson",
+          "rate": "4.21",
+          "voters": "994",
+          "people": [
+            "John Doe",
+            "Leo Wolf",
+            "Peter Brown"
+          ],
+          "image": "7.jpg"
+        },
+        {
+          "name": "Sapiens : A Brief History of Humankind",
+          "author": "Yuval Noah Harari",
+          "rate": "4.39",
+          "voters": "55,876",
+          "people": [
+            "Carolina Peters",
+            "Peter Brown"
+          ],
+          "image": "8.jpg"
+        },
+        {
+          "name": "A Brief History Of Time : From Big Bang To Black Holes",
+          "author": "Stephen Hawking",
+          "rate": "4.11",
+          "voters": "170,752",
+          "people": [
+            "Peter Brown"
+          ],
+          "image": "9.jpg"
+        },
+        {
+          "name": "The Gene : An Intimate History",
+          "author": "Siddhartha Mukherjee",
+          "rate": "4.35",
+          "voters": "7,609",
+          "people": [
+            "Carolina Peters",
+            "Maria Smith",
+            "Samantha William",
+            "Peter Brown"
+          ],
+          "image": "10.jpg"
+        }
+      ]
+    },
+    {
+      "category": "fiction",
+      "books": [
+        {
+          "name": "It Ends With Us",
+          "author": "Colleen Hoover",
+          "rate": "4.45",
+          "voters": "81,535",
+          "people": [
+            "Carolina Peters",
+            "Samantha William"
+          ],
+          "image": "11.jpg"
+        },
+        {
+          "name": "A Horse Walks into a Bar",
+          "author": "David Grossman , Translated by  Jessica Cohen",
+          "rate": "3.56",
+          "voters": "724",
+          "people": [
+            "Carolina Peters",
+            "John Doe",
+            "Maria Smith",
+            "Leo Wolf",
+            "Samantha William",
+            "Peter Brown"
+          ],
+          "image": "12.jpg"
+        },
+        {
+          "name": "Nineteen Eighty-Four",
+          "author": "George Orwell",
+          "rate": "4.13",
+          "voters": "1,943,955",
+          "people": [
+            "Carolina Peters",
+            "John Doe",
+            "Leo Wolf",
+            "Samantha William",
+            "Peter Brown"
+          ],
+          "image": "13.jpg"
+        }
+      ]
+    },
+    {
+      "category": "hobbies",
+      "books": [
+        {
+          "name": "Flourish : Stunning Arrangements with Flowers and Foliage",
+          "author": "Willow Crossley",
+          "rate": "4.4",
+          "voters": "88",
+          "people": [
+            "Carolina Peters",
+            "Samantha William"
+          ],
+          "image": "14.jpg"
+        },
+        {
+          "name": "The Urban Woodsman : A Modern Guide to Carving Spoons, Bowls and Boards",
+          "author": "Max Bainbridge",
+          "rate": "4.2",
+          "voters": "10",
+          "people": [
+            "Peter Brown"
+          ],
+          "image": "15.jpg"
+        }
+      ]
+    },
+    {
+      "category": "biography",
+      "books": [
+        {
+          "name": "Elon Musk : How the Billionaire CEO of SpaceX and Tesla is Shaping our Future",
+          "author": "Ashlee Vance",
+          "rate": "4.23",
+          "voters": "67,029",
+          "people": [
+            "John Doe",
+            "Maria Smith",
+            "Leo Wolf"
+          ],
+          "image": "16.jpg"
+        },
+        {
+          "name": "Margaret Thatcher: A Life and Legacy",
+          "author": "Mr David Cannadine",
+          "rate": "3.75",
+          "voters": "8",
+          "people": [],
+          "image": "17.jpg"
+        },
+        {
+          "name": "Life in Motion : An Unlikely Ballerina",
+          "author": "Misty Copeland",
+          "rate": "3.84",
+          "voters": "4,230",
+          "people": [
+            "Carolina Peters"
+          ],
+          "image": "18.jpg"
+        },
+        {
+          "name": "The John Lennon Letters",
+          "author": "John Lennon, Hunter Davies",
+          "rate": "",
+          "voters": "",
+          "people": [
+            "John Doe"
+          ],
+          "image": "19.jpg"
+        }
+      ]
+    }
+  ]
+}

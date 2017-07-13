@@ -39,7 +39,16 @@
   background-color: #0091EA;
   height: inherit;
   flex: 3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
+.CategoryButton {
+  background-color: #FFEA00;
+  flex: 1;
+  height: 100%;
+}
+
 .Books {
   background-color: #B2FF59;
   height: 75vh;
@@ -51,8 +60,8 @@
 }
 .Book {
   background-color: #311B92;
-  height: 200px;
-  width: 250px;
-  margin: 20px;
-  /*display: inherit;*/
+  height: 250px;
+  width: 450px;
+  margin: 40px;
+  flex-grow: 1;
 }
