@@ -4,6 +4,7 @@ header {
   width: 100%;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 .BrowseCategory {
   background-color: #00E5FF;
@@ -11,22 +12,110 @@ header {
   flex: 2;
 }
 .SearchBook {
-  background-color: #F50057;
+  background-color: #F7F8FA;
+  font-size: 16px;
   height: inherit;
   flex: 2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.iconSearch{
+  margin: 5px;
+  color: #B0BEC5;
+}
+.SearchBook input {
+  background-color: inherit;
+  color: #90A4AE;
+  box-sizing: border-box;
+  border: 0;
+  border-bottom: 0.5px solid #B0BEC5;
+  flex: 2;
+  width: 50%;
+  font-size: 16px;
+  margin-right: 10px;
+  -webkit-transition: margin 0.4s ease-in-out;
+  transition: margin 0.4s ease-in-out;
+}
+.SearchBook input:focus {  
+  margin-right: 3px;
+}
+.SearchBook input::-webkit-input-placeholder {
+  color: #B0BEC5;
+  -webkit-transition: color 0.4s ease-in-out;
+  transition: color 0.4s ease-in-out;
+}
+.SearchBook input:focus::-webkit-input-placeholder {
+  color: transparent;
 }
 .Titel {
-  background-color: #303F9F;
+  background-color: #F7F8FA;
   height: inherit;
   flex: 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #78909C;
 }
 .User {
-  background-color: #FFF176;
+  background-color: #F7F8FA;
   height: inherit;
   flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.UserPictire {
+  background-color: pink;
+  height: 8vh;
+  width: 8vh;
+  border: 1px solid #F7F8FA;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.UserPictire img {
+  height: 80%;
+  vertical-align: middle;
+}
+.Notification {
+  background-color: #E57373;
+  color: #FFFFFF;
+  font-size: 8px;
+  height: 2vh;
+  width: 2vh;
+  border-radius: 50%;
+  z-index: 13;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  margin-top: 2vh;
+  top: 2vh;
+  right: -15px;
 }
 .Menu {
-  background-color: #26A69A;
+  background-color: #F7F8FA;
   height: inherit;
   flex: 2;
+  color: #78909C;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-transition: color 0.4s ease-in-out;
+  transition: color 0.4s ease-in-out;
+}
+.iconMenu {
+  flex: 1;
+  font-size: 24px;
+}
+.Menu span {
+  flex: 3;
+}
+.Menu:hover {
+  color: #455A64;
 }

@@ -4,7 +4,9 @@ import './headerStyle.css';
 var Titel = React.createClass({
   render: function() {
     return (
-      <div className='Titel'></div>
+      <div className='Titel'>
+        read<b>books</b>
+      </div>
     );
   }
 });
