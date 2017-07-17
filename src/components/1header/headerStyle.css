@@ -1,5 +1,4 @@
 header {
-  background-color: #CDDC39;
   height: 10vh;
   width: 100%;
   display: flex;
@@ -7,9 +6,23 @@ header {
   align-items: center;
 }
 .BrowseCategory {
-  background-color: #00E5FF;
+  background-color: #F7F8FA;
   height: inherit;
   flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.BrowseCategory select {
+  background-color: #F7F8FA;
+  color: #90A4AE;
+  border: 0;
+  outline:0px;
+}
+.BrowseCategory option {
+  background-color: #F7F8FA;
+  color: #90A4AE;
+  border: 0;
 }
 .SearchBook {
   background-color: #F7F8FA;
@@ -19,6 +32,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
 .iconSearch{
   margin: 5px;
@@ -95,6 +109,8 @@ header {
   margin-top: 2vh;
   top: 2vh;
   right: -15px;
+  cursor: pointer;
+  visibility: visible;
 }
 .Menu {
   background-color: #F7F8FA;

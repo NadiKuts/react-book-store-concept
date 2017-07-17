@@ -4,11 +4,14 @@ import PopularBy from './PopularBy';
 import NavBar from './NavBar';
 
 var NavigationPanel = React.createClass({
+  onCategorySelect(filter) {
+    this.props.onMainFilterClick(filter);
+  },
   render: function() {
     return (
       <div className='NavigationPanel'>
         <PopularBy></PopularBy>
-        <NavBar></NavBar>
+        <NavBar onFilterClick={this.onCategorySelect}></NavBar>
       </div>
     );
   }

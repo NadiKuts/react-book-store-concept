@@ -20,7 +20,6 @@
   width: inherit;
   flex: 1;
 }
-
 .BookShelf {
   height: inherit;
   flex: 4;
@@ -63,11 +62,4 @@
   flex-direction: row;
   flex-wrap: wrap;
   overflow-y: scroll;
-}
-.Book {
-  background-color: #311B92;
-  height: 250px;
-  width: 450px;
-  margin: 40px;
-  flex-grow: 1;
 }

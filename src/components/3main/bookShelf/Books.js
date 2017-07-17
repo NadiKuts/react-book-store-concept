@@ -1,19 +1,19 @@
 import React from 'react';
 import jsonReader from 'json-loader';
 import '../main.css';
-import Book from './Book';
+import Book from './book/Book';
 import bookInfo from '../../../books.json';
 
 var Books = React.createClass({
   
   render: function() {
-    let books = [];
-    for (let i = 0; i < 9; i++) {
-      books.push(<Book></Book>);
+    let bookCards = [];
+    for (let i=0; i<this.props.books.length; i++) {
+      bookCards.push(<Book name={this.props.books[i].name}></Book>);
     }
     return (
       <div className='Books'>
-        {books}
+        {bookCards}
       </div>
     );
   }

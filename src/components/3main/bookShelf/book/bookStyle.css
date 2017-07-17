@@ -1,0 +1,29 @@
+.Book {
+  background-color: #311B92;
+  height: 250px;
+  width: 350px;
+  margin: 40px 20px;
+  position: relative;
+}
+.BookCover {
+  background-color: #26C6DA;
+  height: 180px;
+  width: 120px;
+  position: absolute;
+  top: -30px;
+  left: 10px;
+}
+.BookInfo {
+  background-color: #F06292;
+  height: 200px;
+  width: 220px;
+  position: absolute;
+  right: 0;
+}
+.Likes {
+  background-color: #9575CD;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
