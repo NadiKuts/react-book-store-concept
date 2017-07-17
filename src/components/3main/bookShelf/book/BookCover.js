@@ -5,7 +5,7 @@ var BookCover = React.createClass({
   render: function() {
     return (
       <div className='BookCover'>
-        
+        <img src={require('../booksImgs/'+this.props.img)} />
       </div>
     );
   }

@@ -9,7 +9,7 @@ var Books = React.createClass({
   render: function() {
     let bookCards = [];
     for (let i=0; i<this.props.books.length; i++) {
-      bookCards.push(<Book name={this.props.books[i].name}></Book>);
+      bookCards.push(<Book name={this.props.books[i].name} img={this.props.books[i].image}></Book>);
     }
     return (
       <div className='Books'>

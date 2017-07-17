@@ -8,7 +8,7 @@ var Book = React.createClass({
   render: function() {
     return (
       <div className='Book'>
-        <BookCover></BookCover>
+        <BookCover img={this.props.img}></BookCover>
         <BookInfo name={this.props.name}></BookInfo>
         <Likes></Likes>
       </div>
