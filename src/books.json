@@ -4,7 +4,7 @@
       "category": "business",
       "books": [
         {
-          "name": "The Barefoot Investor : The Only Money Guide You'll Ever Need",
+          "name": "The Barefoot Investor",
           "author": "Scott Pape",
           "rate": "4.63",
           "voters": "822",
@@ -19,7 +19,7 @@
           "image": "1.jpg"
         },
         {
-          "name": "Start with Why : How Great Leaders Inspire Everyone to Take Action",
+          "name": "Start with Why",
           "author": "Simon Sinek",
           "rate": "4.06",
           "voters": "31,736",
@@ -44,7 +44,7 @@
           "image": "3.jpg"
         },
         {
-          "name": "Shoe Dog : A memoir by the Creator of Nike",
+          "name": "Shoe Dog: A memoir by the Creator of Nike",
           "author": "Phil Knight",
           "rate": "4.44",
           "voters": "18,916",
@@ -70,7 +70,7 @@
           "image": "5.jpg"
         },
         {
-          "name": "Playing to Win : How Strategy Really Works",
+          "name": "Playing to Win: How Strategy Really Works",
           "author": "A.G. Lafley, Roger L. Martin",
           "rate": "3.96",
           "voters": "1,930",
@@ -95,7 +95,7 @@
           "image": "7.jpg"
         },
         {
-          "name": "Sapiens : A Brief History of Humankind",
+          "name": "Sapiens: A Brief History of Humankind",
           "author": "Yuval Noah Harari",
           "rate": "4.39",
           "voters": "55,876",
@@ -106,7 +106,7 @@
           "image": "8.jpg"
         },
         {
-          "name": "A Brief History Of Time : From Big Bang To Black Holes",
+          "name": "A Brief History Of Time: From Big Bang To Black Holes",
           "author": "Stephen Hawking",
           "rate": "4.11",
           "voters": "170,752",
@@ -116,7 +116,7 @@
           "image": "9.jpg"
         },
         {
-          "name": "The Gene : An Intimate History",
+          "name": "The Gene: An Intimate History",
           "author": "Siddhartha Mukherjee",
           "rate": "4.35",
           "voters": "7,609",
@@ -179,7 +179,7 @@
       "category": "hobbies",
       "books": [
         {
-          "name": "Flourish : Stunning Arrangements with Flowers and Foliage",
+          "name": "Flourish: Stunning Arrangements with Flowers and Foliage",
           "author": "Willow Crossley",
           "rate": "4.4",
           "voters": "88",
@@ -190,7 +190,7 @@
           "image": "14.jpg"
         },
         {
-          "name": "The Urban Woodsman : A Modern Guide to Carving Spoons, Bowls and Boards",
+          "name": "The Urban Woodsman: A Modern Guide to Carving Spoons, Bowls and Boards",
           "author": "Max Bainbridge",
           "rate": "4.2",
           "voters": "10",
@@ -205,7 +205,7 @@
       "category": "biography",
       "books": [
         {
-          "name": "Elon Musk : How the Billionaire CEO of SpaceX and Tesla is Shaping our Future",
+          "name": "Elon Musk: How the Billionaire CEO of SpaceX and Tesla is Shaping our Future",
           "author": "Ashlee Vance",
           "rate": "4.23",
           "voters": "67,029",
@@ -225,7 +225,7 @@
           "image": "17.jpg"
         },
         {
-          "name": "Life in Motion : An Unlikely Ballerina",
+          "name": "Life in Motion",
           "author": "Misty Copeland",
           "rate": "3.84",
           "voters": "4,230",

@@ -1,11 +1,16 @@
 import React from 'react';
 import './bookStyle.css';
+import Rate from './Rate';
+import BookDescription from './BookDescription';
 
 var BookInfo = React.createClass({
   render: function() {
     return (
       <div className='BookInfo'>
-        {this.props.name}
+        <h1>{this.props.name}</h1>
+        <p className='Author'>by {this.props.author}</p>
+        <Rate rate={this.props.rate} voters={this.props.voters}></Rate>
+        <BookDescription></BookDescription>
       </div>
     );
   }

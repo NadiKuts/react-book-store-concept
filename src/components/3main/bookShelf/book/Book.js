@@ -9,7 +9,8 @@ var Book = React.createClass({
     return (
       <div className='Book'>
         <BookCover img={this.props.img}></BookCover>
-        <BookInfo name={this.props.name}></BookInfo>
+        <BookInfo name={this.props.name} author={this.props.author}
+        rate={this.props.rate} voters={this.props.voters}></BookInfo>
         <Likes></Likes>
       </div>
     );
