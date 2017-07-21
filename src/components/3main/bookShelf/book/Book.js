@@ -11,7 +11,7 @@ var Book = React.createClass({
         <BookCover img={this.props.img}></BookCover>
         <BookInfo name={this.props.name} author={this.props.author}
         rate={this.props.rate} voters={this.props.voters}></BookInfo>
-        <Likes></Likes>
+        <Likes people={this.props.people}></Likes>
       </div>
     );
   }

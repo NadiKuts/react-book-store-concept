@@ -56,20 +56,44 @@
   margin-top: -5px;
 }
 .Rate span {
-  color:#607D8B;
+  color: #607D8B;
   font-size: 0.7em;
   margin-left: 15px;
 }
 .BookDescription {
-  color:#607D8B;
+  color: #607D8B;
   font-size: 0.8em;
   margin: 10px;
   text-align: justify;  
 }
 .Likes {
-  background-color: #9575CD;
-  height: 50px;
-  width: 100%;
+  border-top: 0.5px solid #CFD8DC;
+  height: 40px;
+  width: 95%;
   position: absolute;
   bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Likes span {
+  color: #607D8B;
+  font-size: 0.8em;
+  padding-left: 5px;
+}
+.PeopleLike {
+  background-color: #FFFFFF;
+  height: 2.5vh;
+  width: 2.5vh;
+  border: 1px solid #CFD8DC;
+  border-radius: 50%;
+  margin-left: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Likes img {
+  height: 80%;
+  vertical-align: middle;
 }
