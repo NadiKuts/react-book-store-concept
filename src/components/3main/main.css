@@ -1,7 +1,8 @@
 .Main {
+  background-color: #F7F8FA;
   display: flex;
   flex-direction: row;
-  height: 80vh;
+  height: auto;
 }
 
 .Best {
@@ -10,24 +11,91 @@
   display: flex;
   flex-direction: column;
 }
+ul {
+  list-style-type: none;
+}
 .Authors {
-  background-color: #9C27B0;
+  background-color: #F7F8FA;
   width: inherit;
   flex: 1;
 }
+.AuthorPhoto {
+  background-color: #FFFFFF;
+  height: 4vh;
+  width: 4vh;
+  border: 1px solid #CFD8DC;
+  border-radius: 50%;
+  margin-left: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.AuthorPhoto img {
+  height: 100%;
+  vertical-align: middle;
+}
 .BestBooks {
-  background-color: #69F0AE;
+  background-color: #F7F8FA;
   width: inherit;
   flex: 1;
+}
+.Authors li {
+  height: 6vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 40px;
+}
+.BestBooks li {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.Authors li span,
+.BestBooks li span {
+  margin-left: 20px;
+  color: #78909C;
+  font-size: 0.8em;
+  flex: 2;
+}
+.BookPhoto {
+  background-color: #F7F8FA;
+  height: 45px;
+  width: auto;
+  max-width: 30px;
+  text-align: center;
+  flex: 1;
+}
+.BookPhoto img {
+  min-height: 45px;
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+  align-self: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.Titel {
+  height: 6vh;
+  align-items: center;
+  color: #78909C;
+}
+.Titel span {
+  margin-left: 40px;
+  font-weight: bold;
 }
 .BookShelf {
   height: inherit;
   flex: 4;
+  margin-right: 15px;
 }
 .NavigationPanel {
-  height: 5vh;
+  height: 6vh;
   display: flex;
   flex-direction: row;
+  border-bottom: 0.5px solid #CFD8DC;
 }
 .PopularBy {
   background-color: #F7F8FA;
@@ -39,9 +107,9 @@
 }
 .PopularBy span {
   margin-left: 40px;
+  font-weight: bold;
 }
 .NavBar {
-  background-color: #0091EA;
   height: inherit;
   flex: 3;
   display: flex;
@@ -49,17 +117,26 @@
   justify-content: space-between;
 }
 .CategoryButton {
-  background-color: #FFEA00;
+  background-color: #F7F8FA;
+  color: #78909C;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
   flex: 1;
   height: 100%;
 }
-
+.CategoryButtonActive {
+  border-bottom: 2px solid #0091EA;
+  transition: 0.3s;
+}
 .Books {
   background-color: #F7F8FA;
-  height: 75vh;
+  height: auto;
   width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  overflow-y: scroll;
 }

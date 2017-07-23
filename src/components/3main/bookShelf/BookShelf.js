@@ -8,7 +8,6 @@ var BookShelf = React.createClass({
   getInitialState() {
     return {
       activeFilter: 'business',
-      
     }
   },
   onFilterChange(filter) {
@@ -24,7 +23,7 @@ var BookShelf = React.createClass({
     }
     return (
       <div className='BookShelf'>
-        <NavigationPanel onMainFilterClick={this.onFilterChange}></NavigationPanel>
+        <NavigationPanel onMainFilterClick={this.onFilterChange} activeTab={this.state.activeFilter}></NavigationPanel>
         <Books books={currentBooks}></Books>
       </div>
     );

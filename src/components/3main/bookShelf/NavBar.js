@@ -8,8 +8,10 @@ var NavBar = React.createClass({
   },
   render: function() {
     const categories = bookInfo.store.map((x) => {
+      let categoryName = x.category.charAt(0).toUpperCase() + x.category.slice(1);
+      let style = 'CategoryButton ' + (this.props.activeTab == x.category ? 'CategoryButtonActive' : '');
       return (
-        <button onClick={() => this.onFilterSelect(x.category)} className='CategoryButton'>{x.category}</button>
+        <button onClick={() => this.onFilterSelect(x.category)} className={style}>{categoryName}</button>
       )
     });
     return (

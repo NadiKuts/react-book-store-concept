@@ -11,7 +11,7 @@ var NavigationPanel = React.createClass({
     return (
       <div className='NavigationPanel'>
         <PopularBy></PopularBy>
-        <NavBar onFilterClick={this.onCategorySelect}></NavBar>
+        <NavBar onFilterClick={this.onCategorySelect} activeTab={this.props.activeTab}></NavBar>
       </div>
     );
   }
