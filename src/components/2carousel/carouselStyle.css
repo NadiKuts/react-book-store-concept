@@ -1,5 +1,77 @@
 .Carousel {
   background-color: #F7F8FA;
   height: 40vh;
-  width: 100%;
+  display: inline-flex;
+  /*overflow-x: scroll;*/
+  width:100%;
+  overflow:scroll;
+  white-space: nowrap;
+}
+.BookCard {
+  background-color: #FFFFFF;
+  width: 400px;
+  margin: 10px;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.Cover {
+  background-color: #F7F8FA;
+  height: 180px;
+  width: auto;
+  max-width: 120px;
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  text-align: center;
+}
+.Cover img {
+  min-height: 180px;
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+  align-self: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.Info {
+  background-color: #FFFFFF;
+  height: 200px;
+  width: 220px;
+  position: absolute;
+  right: 0;
+}
+.Info h1 {
+  color: #263238;
+  font-size: 0.8em;
+  padding: 5px;
+  height: 35px;
+}
+.Author {
+  margin-top: 0;
+  color:#607D8B;
+  font-size: 0.7em;
+  margin-left: 10px;
+}
+.Rate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #FFCA28;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+.Rate span {
+  color: #607D8B;
+  font-size: 0.7em;
+  margin-left: 15px;
+}
+.BookDescription {
+  color: #607D8B;
+  font-size: 0.8em;
+  margin: 10px;
+  text-align: justify;  
+}
+.SeeBook {
+  
 }

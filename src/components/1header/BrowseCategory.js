@@ -4,9 +4,9 @@ import bookInfo from '../../books.json';
 
 var BrowseCategory = React.createClass({
   render: function() {
-    const categories = bookInfo.store.map((x) => {
+    const categories = bookInfo.store.map((x, index) => {
       return (
-        <option>{x.category}</option>
+        <option key={index}>{x.category}</option>
       )
     });
     return (

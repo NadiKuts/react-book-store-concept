@@ -1,5 +1,5 @@
 import React from 'react';
-import './bookStyle.css';
+import './sharedComponentsStyle.css';
 import {MdStarOutline, MdStarHalf, MdStar} from 'react-icons/lib/md'
 
 var Rate = React.createClass({
@@ -16,14 +16,15 @@ var Rate = React.createClass({
     
     let stars = [];
     
-    for (let i = 0; i < fullStar; i++) {
-      stars.push(<MdStar></MdStar>);
+    let index = 0;
+    for (let i = 0; i < fullStar; i++, index++) {
+      stars.push(<MdStar key={index}></MdStar>);
     }
-    for (let i = 0; i < halfStar; i++) {
-      stars.push(<MdStarHalf></MdStarHalf>);
+    for (let i = 0; i < halfStar; i++, index++) {
+      stars.push(<MdStarHalf key={index}></MdStarHalf>);
     }
-    for (let i = 0; i < emptyStar; i++) {
-      stars.push(<MdStarOutline></MdStarOutline>);
+    for (let i = 0; i < emptyStar; i++, index++) {
+      stars.push(<MdStarOutline key={index}></MdStarOutline>);
     }
     
     return (

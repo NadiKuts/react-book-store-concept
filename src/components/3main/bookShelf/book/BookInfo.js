@@ -1,6 +1,6 @@
 import React from 'react';
 import './bookStyle.css';
-import Rate from './Rate';
+import Rate from '../../../sharedComponents/Rate';
 import BookDescription from './BookDescription';
 
 var BookInfo = React.createClass({

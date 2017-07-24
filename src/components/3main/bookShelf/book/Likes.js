@@ -9,7 +9,7 @@ var Likes = React.createClass({
     let likesText = null;
     for (let i=0; i < people.length; i++) {
       photos.push(
-        <div className='PeopleLike'>
+        <div key={i} className='PeopleLike'>
           <img src={require('../people/' + people[i] + '.png')} />
         </div>
       );

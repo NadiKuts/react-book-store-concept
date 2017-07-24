@@ -4,7 +4,8 @@ import '../carouselStyle.css';
 var BookCover = React.createClass({
   render: function() {
     return (
-      <div className='BookCover'>
+      <div className='Cover'>
+        <img src={require('../../3main/bookShelf/booksImgs/' + this.props.img)} />
       </div>
     );
   }

@@ -34,7 +34,6 @@ var Best = React.createClass({
         image: book.image,
       };
     });
-    console.log(bestBooks);
     return bestBooks;
   },
   render: function() {

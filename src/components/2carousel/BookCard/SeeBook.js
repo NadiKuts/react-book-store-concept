@@ -5,6 +5,7 @@ var SeeBook = React.createClass({
   render: function() {
     return (
       <div className='SeeBook'>
+        <button>See Book</button>
       </div>
     );
   }

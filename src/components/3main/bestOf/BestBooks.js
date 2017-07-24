@@ -6,7 +6,7 @@ var BestBooks = React.createClass({
     let bestBooks = [];
     for (let i=0; i<this.props.bestBooks.length; i++) {
       bestBooks.push(
-        <li>
+        <li key={i}>
           <div className='BookPhoto'>
             <img src={require('../bookShelf/booksImgs/' + this.props.bestBooks[i].image)} />
           </div>

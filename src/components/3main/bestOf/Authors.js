@@ -6,7 +6,7 @@ var Authors = React.createClass({
     let bestAuthors = [];
     for (let i=0; i<this.props.bestAuthors.length; i++) {
       bestAuthors.push(
-        <li>
+        <li key={i}>
           <div className='AuthorPhoto'>
             <img src={require('./authors/' + i + '.png')} />
           </div>
