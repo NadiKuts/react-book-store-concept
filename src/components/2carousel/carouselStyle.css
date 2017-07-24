@@ -1,29 +1,29 @@
 .Carousel {
   background-color: #F7F8FA;
   height: 40vh;
-  display: inline-flex;
-  /*overflow-x: scroll;*/
-  width:100%;
-  overflow:scroll;
-  white-space: nowrap;
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px;
+  color: #333;
+}
+.slick-arrow {
+  background-color: blue;
 }
 .BookCard {
-  background-color: #FFFFFF;
-  width: 400px;
-  margin: 10px;
-  height: 80%;
+  background-color: pink;
+  width: 420px;
+  height: 300px;
   display: flex;
   flex-direction: row;
   position: relative;
 }
 .Cover {
-  background-color: #F7F8FA;
-  height: 180px;
+  height: 210px;
   width: auto;
-  max-width: 120px;
+  max-width: 140px;
   position: absolute;
   top: 30px;
-  left: 10px;
+  left: 20px;
   text-align: center;
 }
 .Cover img {
@@ -35,7 +35,6 @@
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .Info {
-  background-color: #FFFFFF;
   height: 200px;
   width: 220px;
   position: absolute;
@@ -49,7 +48,7 @@
 }
 .Author {
   margin-top: 0;
-  color:#607D8B;
+  color: #FFFFFF;
   font-size: 0.7em;
   margin-left: 10px;
 }
@@ -72,6 +71,17 @@
   margin: 10px;
   text-align: justify;  
 }
-.SeeBook {
-  
+.SeeBook button {
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: none;
+  color: pink;
+  background-color: #FFFFFF;
+  border: none;
+  height: 30px;
+  width: 200px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }

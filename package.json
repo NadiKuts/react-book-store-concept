@@ -6,7 +6,9 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-icons": "^2.2.5",
-    "react-motion": "^0.5.0"
+    "react-motion": "^0.5.0",
+    "react-slick": "^0.14.11",
+    "slick-carousel": "^1.6.0"
   },
   "devDependencies": {
     "react-scripts": "1.0.10",
