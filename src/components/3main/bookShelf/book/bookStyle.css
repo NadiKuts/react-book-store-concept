@@ -7,6 +7,14 @@
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
 }
+.icon {
+  color:#D32F2F;
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  cursor: pointer;
+  transition: 1s;
+}
 .Book:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
@@ -39,7 +47,9 @@
   color: #263238;
   font-size: 0.8em;
   padding: 5px;
+  padding-right: 8px;
   height: 35px;
+  width: 200px;
 }
 .Author {
   margin-top: 0;

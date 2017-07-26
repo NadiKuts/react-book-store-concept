@@ -4,8 +4,8 @@ import '../carouselStyle.css';
 var SeeBook = React.createClass({
   render: function() {
     return (
-      <div className='SeeBook'>
-        <button>See Book</button>
+      <div className='SeeBook' style={this.props.color}>
+        <button style={this.props.color}>See Book</button>
       </div>
     );
   }

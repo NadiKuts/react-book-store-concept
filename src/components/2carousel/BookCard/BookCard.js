@@ -7,10 +7,10 @@ import Info from './BookInfo';
 var BookCard = React.createClass({
   render: function() {
     return (
-      <div className='BookCard'>
+      <div className='BookCard' style={this.props.style}>
         <Cover img={this.props.bookInfo.image}></Cover>
         <Info titel={this.props.bookInfo.name} author={this.props.bookInfo.author} 
-          rate={this.props.bookInfo.rate} voters={this.props.bookInfo.voters}></Info>
+          rate={this.props.bookInfo.rate} color={this.props.dark} voters={this.props.bookInfo.voters}></Info>
       </div>
     );
   }
