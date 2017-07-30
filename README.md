@@ -3,10 +3,14 @@ UI for Online Book Store developed by using ReactJS
 
 Inspired by https://www.uplabs.com/posts/book-store-website-interface
 
-### Instructions
-- Clone repository: `git clone https://github.com/NadiKuts/UI_2_Bookstore.git`
+|      Original design      |  Implementation         |
+| ------------------------- |:-----------------------:|
+| ![Output sample](preview.gif)|![Output sample](logIn.gif) |
 
-- Navigate to the created folder: `cd UI_2_Bookstore`
+### Instructions
+- Clone repository: `git clone https://github.com/NadiKuts/BookStoreUI.git`
+
+- Navigate to the created folder: `cd BookStoreUI`
 
 - Install dependencies: `npm install`
 
