@@ -3,9 +3,9 @@ UI for Online Book Store developed by using ReactJS
 
 Inspired by https://www.uplabs.com/posts/book-store-website-interface
 
-|      Original design      |  Implementation         |
-| ------------------------- |:-----------------------:|
-| ![Output sample](preview.gif)|![Output sample](logIn.gif) |
+|      Original design      |    Implementation    |
+| ------------------------- |:--------------------:|
+| ![alt text](original_design.png)|![Output sample](books.gif) |
 
 ### Instructions
 - Clone repository: `git clone https://github.com/NadiKuts/BookStoreUI.git`
@@ -17,7 +17,11 @@ Inspired by https://www.uplabs.com/posts/book-store-website-interface
 - Start the project `npm start`
 
 ### Sources
+React Slick Carousel Component:
+https://github.com/akiran/react-slick
 
+Book information:
+https://www.bookdepository.com/
 
 ### License
 MIT License
