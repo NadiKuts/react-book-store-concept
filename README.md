@@ -20,7 +20,7 @@ Inspired by https://www.uplabs.com/posts/book-store-website-interface
 React Slick Carousel Component:
 https://github.com/akiran/react-slick
 
-Book information:
+Books information:
 https://www.bookdepository.com/
 
 ### License
