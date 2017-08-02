@@ -5,7 +5,7 @@ Inspired by https://www.uplabs.com/posts/book-store-website-interface
 
 |      Original design      |    Implementation    |
 | ------------------------- |:--------------------:|
-| ![alt text](original_design.png)|![Output sample](books.gif) |
+| ![alt text](original_design.png)|![Output sample](booksGIF.gif) |
 
 ### Instructions
 - Clone repository: `git clone https://github.com/NadiKuts/BookStoreUI.git`
