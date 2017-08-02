@@ -5,11 +5,12 @@ import BookDescription from './BookDescription';
 
 var BookInfo = React.createClass({
   render: function() {
+    const textColor = '#607D8B';
     return (
       <div className='BookInfo'>
         <h1>{this.props.name}</h1>
         <p className='Author'>by {this.props.author}</p>
-        <Rate rate={this.props.rate} voters={this.props.voters} ></Rate>
+        <Rate rate={this.props.rate} voters={this.props.voters} textColor={textColor}></Rate>
         <BookDescription></BookDescription>
       </div>
     );

@@ -1,5 +1,5 @@
 header {
-  background-color: #F7F8FA;
+  background-color: #FAFAFA;
   height: 10vh;
   width: 100%;
   display: flex;
@@ -7,7 +7,7 @@ header {
   align-items: center;
 }
 .BrowseCategory {
-  background-color: #F7F8FA;
+  background-color: #FAFAFA;
   height: inherit;
   flex: 2;
   display: flex;
@@ -15,18 +15,18 @@ header {
   justify-content: center;
 }
 .BrowseCategory select {
-  background-color: #F7F8FA;
+  background-color: #FAFAFA;
   color: #90A4AE;
   border: 0;
   outline:0px;
 }
 .BrowseCategory option {
-  background-color: #F7F8FA;
+  background-color: #FAFAFA;
   color: #90A4AE;
   border: 0;
 }
 .SearchBook {
-  background-color: #F7F8FA;
+  background-color: #FAFAFA;
   font-size: 16px;
   height: inherit;
   flex: 2;
@@ -64,7 +64,7 @@ header {
   color: transparent;
 }
 .Titel {
-  background-color: #F7F8FA;
+  background-color: #FAFAFA;
   height: inherit;
   flex: 9;
   display: flex;
@@ -74,7 +74,7 @@ header {
   color: #78909C;
 }
 .User {
-  background-color: #F7F8FA;
+  background-color: #FAFAFA;
   height: inherit;
   flex: 1;
   display: flex;
@@ -85,7 +85,7 @@ header {
   background-color: pink;
   height: 8vh;
   width: 8vh;
-  border: 1px solid #F7F8FA;
+  border: 1px solid #FAFAFA;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -114,7 +114,7 @@ header {
   visibility: visible;
 }
 .Menu {
-  background-color: #F7F8FA;
+  background-color: #FAFAFA;
   height: inherit;
   flex: 2;
   color: #78909C;

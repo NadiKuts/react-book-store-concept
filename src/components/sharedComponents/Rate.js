@@ -30,7 +30,7 @@ var Rate = React.createClass({
     return (
       <div className='Rate' style={this.props.color}>
         {stars}
-        <span>{this.props.voters} voters</span>
+        <span style={{color: this.props.textColor}}>{this.props.voters} voters</span>
       </div>
     );
   }

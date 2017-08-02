@@ -1,5 +1,5 @@
 .Main {
-  background-color: #F7F8FA;
+  background-color: #FAFAFA;
   display: flex;
   flex-direction: row;
   height: auto;
@@ -15,7 +15,7 @@ ul {
   list-style-type: none;
 }
 .Authors {
-  background-color: #F7F8FA;
+  background-color: #FAFAFA;
   width: inherit;
   flex: 1;
 }
@@ -35,7 +35,7 @@ ul {
   vertical-align: middle;
 }
 .BestBooks {
-  background-color: #F7F8FA;
+  background-color: #FAFAFA;
   width: inherit;
   flex: 1;
 }
@@ -62,7 +62,7 @@ ul {
   flex: 2;
 }
 .BookPhoto {
-  background-color: #F7F8FA;
+  background-color: #FAFAFA;
   height: 45px;
   width: auto;
   max-width: 30px;
@@ -98,7 +98,7 @@ ul {
   border-bottom: 0.5px solid #CFD8DC;
 }
 .PopularBy {
-  background-color: #F7F8FA;
+  background-color: #FAFAFA;
   height: inherit;
   flex: 1;
   display: flex;
@@ -117,7 +117,7 @@ ul {
   justify-content: space-between;
 }
 .CategoryButton {
-  background-color: #F7F8FA;
+  background-color: #FAFAFA;
   color: #78909C;
   float: left;
   border: none;
@@ -133,7 +133,7 @@ ul {
   transition: 0.3s;
 }
 .Books {
-  background-color: #F7F8FA;
+  background-color: #FAFAFA;
   height: auto;
   width: 100%;
   display: flex;

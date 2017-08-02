@@ -10,17 +10,17 @@ var Carousel = React.createClass({
   getCategoryBook() {
     const backgroundColors = [
       {backgroundColor:'#EC407A'}, 
-      {backgroundColor:'#4DD0E1'}, 
+      {backgroundColor:'#039BE5'}, 
       {backgroundColor:'#AB47BC'}, 
-      {backgroundColor:'#F44336'}, 
-      {backgroundColor:'#2196F3'}, 
+      {backgroundColor:'#FF5252'}, 
+      {backgroundColor:'#00E676'}, 
     ]; 
     const darkColors = [ 
       {color:'#AD1457'}, 
-      {color:'#00838F'}, 
+      {color:'#01579B'}, 
       {color:'#6A1B9A'}, 
       {color:'#D50000'}, 
-      {color:'#0D47A1'}, 
+      {color:'#00C853'}, 
     ];
     
     let carouselBooks = [];
