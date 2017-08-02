@@ -9,21 +9,22 @@ import "slick-carousel/slick/slick-theme.css";
 var Carousel = React.createClass({
   getCategoryBook() {
     const backgroundColors = [
-      {backgroundColor:'#F8BBD0'},
-      {backgroundColor:'#B2EBF2'},
-      {backgroundColor:'#E1BEE7'},
-      {backgroundColor:'#90CAF9'},
-      {backgroundColor:'#CCFF90'},
-    ];
-    const darkColors = [
-      {color:'#D81B60'},
-      {color:'#0097A7'},
-      {color:'#8E24AA'},
-      {color:'#1976D2'},
-      {color:'#64DD17'},
+      {backgroundColor:'#EC407A'}, 
+      {backgroundColor:'#4DD0E1'}, 
+      {backgroundColor:'#AB47BC'}, 
+      {backgroundColor:'#F44336'}, 
+      {backgroundColor:'#2196F3'}, 
+    ]; 
+    const darkColors = [ 
+      {color:'#AD1457'}, 
+      {color:'#00838F'}, 
+      {color:'#6A1B9A'}, 
+      {color:'#D50000'}, 
+      {color:'#0D47A1'}, 
     ];
     
     let carouselBooks = [];
+    const textColor = 'color: #FFFFFF;';
     for (let i=0; i < bookInfo.store.length; i++) {
       const color = backgroundColors[i];
       const dark = darkColors[i];
@@ -46,11 +47,9 @@ var Carousel = React.createClass({
     };
     return (
       <div className='Carousel'>
-        {/* <button class='slick-arrow slick-prev'>prev</button> */}
         <Slider {...settings}>
           {this.getCategoryBook()}
         </Slider>
-        {/* <button class='slick-arrow slick-next'>next</button> */}
       </div>
       
     );

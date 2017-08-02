@@ -10,7 +10,6 @@
   background-color: blue;
 }
 .BookCard {
-  /*background-color: pink;*/
   height: 250px;
   width: 420px;
   margin: 0 20px 30px 20px;
@@ -48,7 +47,7 @@
   right: 0;
 }
 .Info h1 {
-  color: #263238;
+  color: #FFFFFF;
   font-size: 0.8em;
   padding: 5px;
   height: 35px;
@@ -59,33 +58,30 @@
   font-size: 0.7em;
   margin-left: 10px;
 }
-.Rate {
+Info .Rate {
   display: flex;
   flex-direction: row;
   align-items: center;
-  /*color: #FFCA28;*/
   margin-left: 10px;
   margin-top: -5px;
 }
-.Rate span {
-  color: #607D8B;
+Info .Rate span {
+  color: #FFFFFF;
   font-size: 0.7em;
   margin-left: 15px;
 }
-.BookDescription {
-  color: #607D8B;
+.Description {
+  color: #FFFFFF;
   font-size: 0.8em;
   margin: 10px;
   text-align: justify;  
 }
 .SeeBook button {
-  background-color: red;
   font-size: 15px;
   text-align: center;
   justify-content: center;
   cursor: pointer;
   outline: none;
-  color: pink;
   background-color: #FFFFFF;
   border: none;
   height: 30px;

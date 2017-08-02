@@ -1,7 +1,7 @@
 import React from 'react';
 import '../carouselStyle.css';
-import Cover from './BookCover';
-import Info from './BookInfo';
+import Cover from './Cover';
+import Info from './Info';
 
 
 var BookCard = React.createClass({
