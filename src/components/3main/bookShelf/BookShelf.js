@@ -1,19 +1,21 @@
-import React from 'react';
+import React, { Component } from 'react';
 import '../main.css';
 import NavigationPanel from './NavigationPanel';
 import Books from './Books';
 import bookInfo from '../../../books.json';
 
-var BookShelf = React.createClass({
-  getInitialState() {
-    return {
-      activeFilter: 'business',
-    }
-  },
-  onFilterChange(filter) {
+class BookShelf extends Component {
+  constructor(props) {
+		super(props);
+		this.state = {
+			activeFilter: 'business',
+		};
+	}
+  
+  onFilterChange = (filter) => {
     this.setState({activeFilter: filter});
-  },
-  render: function() {
+  }
+  render() {
     let currentBooks = [];
     for (let i=0; i<bookInfo.store.length; i++) {
       if (bookInfo.store[i].category === this.state.activeFilter) {
@@ -28,6 +30,6 @@ var BookShelf = React.createClass({
       </div>
     );
   }
-});
+}
 
 export default BookShelf;

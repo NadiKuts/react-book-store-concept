@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './bookStyle.css';
 import Rate from '../../../sharedComponents/Rate';
 import BookDescription from './BookDescription';
 
-var BookInfo = React.createClass({
-  render: function() {
+class BookInfo extends Component{
+  render() {
     const textColor = '#607D8B';
     return (
       <div className='BookInfo'>
@@ -15,6 +15,6 @@ var BookInfo = React.createClass({
       </div>
     );
   }
-});
+}
 
 export default BookInfo;

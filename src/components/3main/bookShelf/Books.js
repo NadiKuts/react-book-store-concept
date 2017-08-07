@@ -1,12 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import jsonReader from 'json-loader';
 import '../main.css';
 import Book from './book/Book';
 import bookInfo from '../../../books.json';
 
-var Books = React.createClass({
-  
-  render: function() {
+class Books extends Component {
+  render() {
     let bookCards = [];
     for (let i=0; i<this.props.books.length; i++) {
       bookCards.push(<Book key={i} name={this.props.books[i].name} img={this.props.books[i].image} 
@@ -19,6 +18,6 @@ var Books = React.createClass({
       </div>
     );
   }
-});
+}
 
 export default Books;

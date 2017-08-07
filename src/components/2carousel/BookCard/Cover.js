@@ -1,14 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 import '../carouselStyle.css';
 
-var BookCover = React.createClass({
-  render: function() {
+class BookCover extends Component{
+  render() {
     return (
       <div className='Cover'>
         <img src={require('../../3main/bookShelf/booksImgs/' + this.props.img)} />
       </div>
     );
   }
-});
+}
 
 export default BookCover;

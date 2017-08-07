@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 import '../main.css';
 import bookInfo from '../../../books.json';
 
-var NavBar = React.createClass({
-  onFilterSelect(category) {
+class NavBar extends Component {
+  onFilterSelect = (category) => {
     this.props.onFilterClick(category);
-  },
-  render: function() {
+  }
+  render() {
     const categories = bookInfo.store.map((x, index) => {
       let categoryName = x.category.charAt(0).toUpperCase() + x.category.slice(1);
       let style = 'CategoryButton ' + (this.props.activeTab == x.category ? 'CategoryButtonActive' : '');
@@ -20,6 +20,6 @@ var NavBar = React.createClass({
       </div>
     );
   }
-});
+}
 
 export default NavBar;

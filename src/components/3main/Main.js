@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Best from './bestOf/Best';
 import BookShelf from './bookShelf/BookShelf';
 
-var Main = React.createClass({
-  render: function() {
+class Main extends Component {
+  render() {
     return (
       <div className='Main'>
         <Best></Best>
@@ -11,6 +11,6 @@ var Main = React.createClass({
       </div>
     );
   }
-});
+}
 
 export default Main;

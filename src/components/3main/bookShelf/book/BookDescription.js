@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './bookStyle.css';
 
-var BookDescription = React.createClass({
-  render: function() {
+class BookDescription extends Component{
+  render() {
     return (
       <div className='BookDescription'>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -10,6 +10,6 @@ var BookDescription = React.createClass({
       </div>
     );
   }
-});
+}
 
 export default BookDescription;

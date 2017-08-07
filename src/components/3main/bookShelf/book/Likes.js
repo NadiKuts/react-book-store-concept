@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './bookStyle.css';
 
-var Likes = React.createClass({
+class Likes extends Component {
   
-  render: function() {
+  render() {
     let people = this.props.people;
     let photos = [];
     let likesText = null;
@@ -14,12 +14,6 @@ var Likes = React.createClass({
         </div>
       );
     }
-    // if (people.length != 0) {
-    //   let name = (people[0].split(' ')[0]);
-    //   likesText = (
-    //     <span>{name}</span>
-    //   );
-    // }
     if (people.length != 0) {
       let name1Friend = (
         <b>{(people[0].split(' ')[0])}</b>
@@ -51,6 +45,6 @@ var Likes = React.createClass({
       </div>
     );
   }
-});
+}
 
 export default Likes;

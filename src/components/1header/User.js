@@ -1,12 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './headerStyle.css';
 import UserImg from './girl.png';
 
-var User = React.createClass({
-  showNotification() {
-    
-  },
-  render: function() {
+class User extends Component {
+  render() {
     return (
       <div className='User'>
         <div className='UserPictire'>
@@ -16,6 +13,6 @@ var User = React.createClass({
       </div>
     );
   }
-});
+}
 
 export default User;

@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import '../carouselStyle.css';
 import Rate from '../../sharedComponents/Rate';
 import Description from './Description';
 import SeeBook from './SeeBook';
 
-var BookInfo = React.createClass({
-  render: function() {
+class BookInfo extends Component {
+  render() {
     const textColor = '#FFFFFF';
     return (
       <div className='Info'>
@@ -17,6 +17,6 @@ var BookInfo = React.createClass({
       </div>
     );
   }
-});
+}
 
 export default BookInfo;

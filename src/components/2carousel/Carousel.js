@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './carouselStyle.css';
 import bookInfo from '../../books.json';
 import BookCard from './BookCard/BookCard';
@@ -6,8 +6,8 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-var Carousel = React.createClass({
-  getCategoryBook() {
+class Carousel extends Component {
+  getCategoryBook = () => {
     const backgroundColors = [
       {backgroundColor:'#EC407A'}, 
       {backgroundColor:'#039BE5'}, 
@@ -33,9 +33,9 @@ var Carousel = React.createClass({
       );
     };
     return carouselBooks;
-  },
+  }
   
-  render: function () {
+  render() {
     var settings = {
       className: 'center',
       centerMode: true,
@@ -54,6 +54,6 @@ var Carousel = React.createClass({
       
     );
   }
-});
+}
 
 export default Carousel;

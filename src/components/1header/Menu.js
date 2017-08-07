@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './headerStyle.css';
 import {MdMenu} from 'react-icons/lib/md'
 
-var Menu = React.createClass({
-  render: function() {
+class Menu extends Component {
+  render() {
     return (
       <div className='Menu'>
         <MdMenu className='iconMenu'/>
@@ -11,6 +11,6 @@ var Menu = React.createClass({
       </div>
     );
   }
-});
+}
 
 export default Menu;

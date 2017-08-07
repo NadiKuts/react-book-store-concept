@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 import '../main.css';
 import Authors from './Authors';
 import BestBooks from './BestBooks';
 import bookInfo from '../../../books.json';
 
-var Best = React.createClass({
+class Best extends Component{
   
-  getBest() {
+  getBest = () => {
     let allBooks = [];
     for (let i=0; i < bookInfo.store.length; i++) {
       let books = bookInfo.store[i].books;
@@ -18,16 +18,16 @@ var Best = React.createClass({
       return b.rate - a.rate;
     });
     return allBooks;
-  },
+  }
 
-  getBestAuthors() {
+  getBestAuthors = () => {
     const authors = this.getBest().slice(0,5).map((book) => {
       return book.author;
     });
     return authors;
-  },
+  }
   
-  getBestBooks() {
+  getBestBooks = () => {
     const bestBooks = this.getBest().slice(0,5).map((book) => {
       return {
         name: book.name,
@@ -35,8 +35,8 @@ var Best = React.createClass({
       };
     });
     return bestBooks;
-  },
-  render: function() {
+  }
+  render() {
     return (
       <div className='Best'>
         <Authors bestAuthors={this.getBestAuthors()}></Authors>
@@ -44,6 +44,6 @@ var Best = React.createClass({
       </div>
     );
   }
-});
+}
 
 export default Best;

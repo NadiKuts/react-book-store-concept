@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './headerStyle.css';
 import BrowseCategory from './BrowseCategory';
 import SearchBook from './SearchBook';
@@ -6,8 +6,8 @@ import Titel from './Titel';
 import User from './User';
 import Menu from './Menu';
 
-var Header = React.createClass({
-  render: function() {
+class Header extends Component {
+  render () {
     return (
       <header>
         <BrowseCategory></BrowseCategory>
@@ -18,6 +18,6 @@ var Header = React.createClass({
       </header>
     );
   }
-});
+}
 
 export default Header;

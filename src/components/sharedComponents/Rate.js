@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './sharedComponentsStyle.css';
 import {MdStarOutline, MdStarHalf, MdStar} from 'react-icons/lib/md'
 
-var Rate = React.createClass({
-  render: function() {
+class Rate extends Component {
+  render() {
     let fullStar = parseInt(this.props.rate, 10);
     let halfStar = 0;
     let emptyStar = 0;
@@ -34,6 +34,6 @@ var Rate = React.createClass({
       </div>
     );
   }
-});
+}
 
 export default Rate;

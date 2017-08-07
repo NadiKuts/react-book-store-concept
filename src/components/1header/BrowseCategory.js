@@ -1,14 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './headerStyle.css';
 import bookInfo from '../../books.json';
 
-var BrowseCategory = React.createClass({
-  render: function() {
+class BrowseCategory extends Component {
+  render() {
     const categories = bookInfo.store.map((x, index) => {
       return (
         <option key={index}>{x.category}</option>
       )
-    });
+    })
     return (
       <div className='BrowseCategory'>
         <select>
@@ -18,6 +18,6 @@ var BrowseCategory = React.createClass({
       </div>
     );
   }
-});
+}
 
 export default BrowseCategory;

@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import '../main.css';
 
-var Authors = React.createClass({
-  render: function() {
+class Authors extends Component{
+  render() {
     let bestAuthors = [];
     for (let i=0; i<this.props.bestAuthors.length; i++) {
       bestAuthors.push(
@@ -25,6 +25,6 @@ var Authors = React.createClass({
       </div>
     );
   }
-});
+}
 
 export default Authors;

@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import '../main.css';
 
-var BestBooks = React.createClass({
-  render: function() {
+class BestBooks extends Component {
+  render() {
     let bestBooks = [];
     for (let i=0; i<this.props.bestBooks.length; i++) {
       bestBooks.push(
@@ -25,6 +25,6 @@ var BestBooks = React.createClass({
       </div>
     );
   }
-});
+}
 
 export default BestBooks;

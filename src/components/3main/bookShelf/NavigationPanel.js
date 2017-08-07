@@ -1,13 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 import '../main.css';
 import PopularBy from './PopularBy';
 import NavBar from './NavBar';
 
-var NavigationPanel = React.createClass({
-  onCategorySelect(filter) {
+class NavigationPanel extends Component {
+  onCategorySelect = (filter) => {
     this.props.onMainFilterClick(filter);
-  },
-  render: function() {
+  }
+  render() {
     return (
       <div className='NavigationPanel'>
         <PopularBy></PopularBy>
@@ -15,6 +15,6 @@ var NavigationPanel = React.createClass({
       </div>
     );
   }
-});
+}
 
 export default NavigationPanel;

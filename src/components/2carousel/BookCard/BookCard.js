@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import '../carouselStyle.css';
 import Cover from './Cover';
 import Info from './Info';
 
 
-var BookCard = React.createClass({
-  render: function() {
+class BookCard extends Component {
+  render() {
     return (
       <div className='BookCard' style={this.props.style}>
         <Cover img={this.props.bookInfo.image}></Cover>
@@ -14,6 +14,6 @@ var BookCard = React.createClass({
       </div>
     );
   }
-});
+}
 
 export default BookCard;

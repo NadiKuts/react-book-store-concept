@@ -1,21 +1,23 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './bookStyle.css';
 import BookCover from './BookCover';
 import BookInfo from './BookInfo';
 import Likes from './Likes';
 import {FaHeartO, FaHeart} from 'react-icons/lib/fa';
 
-var Book = React.createClass({
-  getInitialState: function() {
-		return {
+class Book extends Component{
+  constructor(props) {
+		super(props);
+		this.state = {
 			liked: false,
-		}
-	},
-  isLiked: function(){
+		};
+	}
+  
+  isLiked = () => {
 		this.setState({liked: !this.state.liked});
-	},
+	}
 
-  render: function() {
+  render() {
     let like = null;
     if (this.state.liked) {
       like = <FaHeart className='icon' onClick={()=>{this.isLiked()}}></FaHeart>
@@ -32,6 +34,6 @@ var Book = React.createClass({
       </div>
     );
   }
-});
+}
 
 export default Book;
