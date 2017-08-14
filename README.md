@@ -8,9 +8,9 @@ Inspired by https://www.uplabs.com/posts/book-store-website-interface
 | ![alt text](original_design.png)|![Output sample](booksGIF.gif) |
 
 ### Instructions
-- Clone repository: `git clone https://github.com/NadiKuts/BookStoreUI.git`
+- Clone repository: `git clone https://github.com/NadiKuts/react-book-store-concept.git`
 
-- Navigate to the created folder: `cd BookStoreUI`
+- Navigate to the created folder: `cd react-book-store-concept`
 
 - Install dependencies: `npm install`
 
